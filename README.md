@@ -1,18 +1,49 @@
-## Getting Started
+# Java-SENA
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Autor
+proyecto desarrollado por Fabian Ricardo Hernandez Valencia 
 
-## Folder Structure
+## Descripción del proyecto
 
-The workspace contains two folders by default, where:
+Este proyecto fue desarrollado en Java como práctica de Programación Orientada a Objetos (POO).  
+El programa permite crear objetos de tipo `Product`, aplicar encapsulamiento mediante métodos getter y setter, utilizar constructores y sobrescribir el método `toString()` para mostrar la información de los objetos de manera legible.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Propósito
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+El objetivo de este proyecto es practicar:
 
-## Dependency Management
+- Creación de clases y objetos
+- Encapsulamiento
+- Uso de getters y setters
+- Constructores por defecto y parametrizados
+- Sobrescritura del método `toString()`
+- Impresión de información en consola
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## Estructura del proyecto
+
+- `Product.java` → Clase principal con atributos y métodos.
+- `App.java` → Clase donde se crean y prueban los objetos.
+
+---
+
+## proceso para compilar
+
+Abrir una terminal en la carpeta del proyecto y ejecutar:
+
+## un ejemplo de salida 
+
+5000.0
+Condones
+5000.0
+Product{id='1', name='Condones', price=5000.0, stock=200}
+15000.0
+50
+100
+Lubricante
+100
+Product{id='2', name='Lubricante', price=15000.0, stock=100}
+
