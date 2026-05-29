@@ -37,27 +37,38 @@ public class Product {
     public void setId(String id) {
         this.id = id;
     }
+
     public void setName(String name) {
         this.name = name;
     }
+
     public void setPrice(double price) {
         this.price = price;
 
-        if(price <= 0){
+        if (price <= 0) {
             System.out.println("error!.. el precio es incorrecto");
-        }
-        else{
+        } else {
             System.out.println(price);
         }
     }
+
     public void setStock(int stock) {
         this.stock = stock;
-        if (stock <= 0 ){
+        if (stock <= 0) {
             System.out.println("error!.. el stock no puede ser menor a 0");
-        }
-        else{
+        } else {
             System.out.println(stock);
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", stock=" + stock +
+                '}';
     }
 
 }

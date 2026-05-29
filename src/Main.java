@@ -10,7 +10,7 @@ public class Main {
         double readPrice = product1.getPrice();
         System.out.println(readPrice);
 
-        int readPtock = product1.getStock();
-        System.out.println(readPtock);
+        int readStock = product1.getStock();
+        System.out.println(readStock);
     }
 }
